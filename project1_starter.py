@@ -51,7 +51,7 @@ def calculate_stats(character_class, level):
     return (strength, magic, health)
 # Takes different classes and establishes the stats the character will get based on what is chosen.
 def save_character(character, filename):
-    file = open(filename, 'w')
+    file = open(filename, 'test.txt')
 
     file.write("Character Name: " + character["name"] + "\n")
     file.write("Class: " + character["class"] + "\n")
