@@ -138,3 +138,4 @@ if __name__ == "__main__":
         print("Error: File not found.")
 # AI fixed any indentation issues, made sure functions were organized so the code waws easy to read and formatted correctly.
 # Allows input to be written, creates the character and gives stats, saves to a file, then loads the file's contents to be displayed again.
+# AI gave me the understanding as to what role each different set of code does.
