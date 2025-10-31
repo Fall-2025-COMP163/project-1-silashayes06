@@ -51,17 +51,16 @@ def calculate_stats(character_class, level):
     return (strength, magic, health)
 # Takes different classes and establishes the stats the character will get based on what is chosen.
 def save_character(character, filename):
-    file = open(filename, 'test.txt')
-
-    file.write("Character Name: " + character["name"] + "\n")
-    file.write("Class: " + character["class"] + "\n")
-    file.write("Level: " + str(character["level"]) + "\n")
-    file.write("Strength: " + str(character["strength"]) + "\n")
-    file.write("Magic: " + str(character["magic"]) + "\n")
-    file.write("Health: " + str(character["health"]) + "\n")
-    file.write("Gold: " + str(character["gold"]) + "\n")
-
-    file.close()
+    with open(filename, 'w') as file:
+    
+        file.write("Character Name: " + character["name"] + "\n")
+        file.write("Class: " + character["class"] + "\n")
+        file.write("Level: " + str(character["level"]) + "\n")
+        file.write("Strength: " + str(character["strength"]) + "\n")
+        file.write("Magic: " + str(character["magic"]) + "\n")
+        file.write("Health: " + str(character["health"]) + "\n")
+        file.write("Gold: " + str(character["gold"]) + "\n")
+    
     return True
 # Saves the character and stats from the dictionary into a text file, writes each on a separate line, then closes it. 
 
