@@ -22,6 +22,7 @@ def create_character(name, character_class):
 # Creates a new character starting at level 1 and establishes the stats that it will need to be included. Then establishes a dictionary set up how the info is formatted. 
 
 def calculate_stats(character_class, level):
+    character_class = character_class.lower()
     if character_class == "warrior":
         strength = 10 + (level * 5)
         magic = 2 + (level * 1)
