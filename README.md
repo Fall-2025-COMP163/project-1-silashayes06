@@ -97,3 +97,12 @@ Modifying protected files will result in automatic academic integrity violation
 Implementation (70%): Function correctness, file operations, error handling
 
 Interview (30%): Code explanation and live coding challenge
+
+1.  My RPG world involves 4 classes, Warrior, Mage, Rogue, and Cleric. They each have their own strengths and weaknesses tied to them. The user starts at level 1, can view their stats, and they will level up as they progress through the RPG world.
+2.  The stat formulas I chose were:
+   Warrior- Extra strength/health, less magic
+   Mage- Extra magic, less strength/health
+   Rogue- Medium strength/magic, low health
+   Cleric- Extra magic/health, slightly more strength
+Each stat increases with the character’s level.
+3. ChatGPT was used to fix indentation errors and code structure, ensuring everything was in the place it should be in.
